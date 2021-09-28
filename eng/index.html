@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYUNJUN AGRICULTURAL COMPANY</title>
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="./js/jquery3.5.1.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/prefix.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <a href="./index.html" class="logo"></a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+            <nav>
+                <div>
+                    <ul class="gnb">
+                        <li id="sec2"><a href="#sec2">Who we are</a></li>
+                        <li id="sec3"><a href="#sec3">When we start</a></li>
+                        <li id="sec4"><a href="#sec4">Where we are</a></li>
+                        <li id="sec6"><a href="#sec6">What we produce</a></li>
+                        <li id="sec7"><a href="#sec7">Why we do</a></li>
+                        <li id="sec8"><a href="#sec8">Contact us</a></li>
+                        <li>
+                            <ul>
+                                <li class="lang">
+                                    <a href="../index.html">
+                                        KO</a>&nbsp;|&nbsp;<a href="index.html">EN</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="sec1">
+        <div class="damn3">
+            <div class="swiper-container mySwiper3 next">
+                <div class="swiper-wrapper swiper-wrapper3">
+                    <div class="swiper-slide swiper-slide3" data-swiper-autoplay="13000">
+                        <div class="text">
+                            <span>HYUN JUN</span>
+                            <span>HOPES PEOPLE</span>
+                            <span>HAPPY AND JOY</span>
+                        </div>
+                        <video class="nbvid" width="100%" height="100%" autoplay loop muted playsinline>
+                            <source src=" ./nbmain.mp4" type="video/mp4">
+                        </video>
+                        <img class="none" src="./img/second.png" alt="first">
+                    </div>
+                    <div class="swiper-slide swiper-slide3">
+                        <h1>Happyness and Joy</h1>
+                        <img src="./img/green2.png" alt="Rectangle">
+                    </div>
+                    <div class="swiper-slide swiper-slide3">
+                        <h1>Honesty and Trust</h1>
+                        <img src="./img/Rectangle 352.png" alt="Rectangle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper3", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                centeredSlides: false,
+                speed: 4500,
+                loop: true,
+                // touchRatio: 1,
+                // allowTouchMove:true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+        <div class="more">
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="round"></div>
+        <h1>Who we are</h1>
+        <p>HYUNJUN AGRICULTURAL COMPANY mainly produces, processes and distributes<br>
+            various products in the field, focusing on horticultural and livestock businesses.</p>
+        </div>
+        <div class="s2_logo">
+        </div>
+    </section>
+    <section class="sec3" id="sec3">
+        <div class="s3_lcon">
+            <h1>When we start</h1>
+            <p>Since its establishment in 2017 for the purpose of horticulture business,
+                to date it is growing steadily and has expanded its scope to livestock business in 2020.</p>
+        </div>
+        <div class="t_conwrap">
+            <div class="btn">
+                <span class="push on" data-id="change1">2017</span>
+                <span class="push" data-id="change2">2018</span>
+                <span class="push" data-id="change3">2019</span>
+                <span class="push" data-id="change4">2020</span>
+            </div>
+            <div class="b1">
+                <div class="tab_con on p1" id="change1"></div>
+                <div class="tab_con p2" id="change2"></div>
+                <div class="tab_con p3" id="change3"></div>
+                <div class="tab_con p4" id="change4"></div>
+            </div>
+        </div>
+    </section>
+    <section class="sec4" id="sec4">
+        <div class="swiper-container mySwiper9">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide con1">
+                    <div class="l_con">
+                        <div class="kor"></div>
+                    </div>
+                    <div class="r_con">
+                        <h1>Where we are</h1>
+                        <p>The main office is located in Bundang-gu, Seongnam-si, and has cultivation farms and
+                            livestock-related facilities in the metropolitan area, including Yongin and Gwangju-si.</p>
+                        <div class="btn">How we do</div>
+                    </div>
+                </div>
+                <div class="swiper-slide con2">
+                    <div class="l_con">
+                        <div class="world"></div>
+                    </div>
+                    <div class="r_con">
+                        <h1>How we do</h1>
+                        <p>New varieties and clean meat are imported and supplied to Korea from advanced countries
+                            in the sector, including gardening and livestock products produced domestically.</p>
+                        <div class="btn2">Where we are</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next f_btn"></div>
+        </div>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper9", {
+                slidesPerView: 1,
+                speed: 1200,
+                loop: true,
+                autoplay: {
+                    delay: 3500,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                },
+            });
+        </script>
+    </section>
+    <section class="sec5" id="sec6">
+        <h1>What we produce</h1>
+        <p>These are the product mall of HYUNJUN AGRICULTURAL COMPANY.</p>
+        <div class="s5_con">
+            <div class="swiper-container s5_left">
+                <div class="lam_logo" onclick="window.location.href='https://smartstore.naver.com/hjcp'"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s5con1"></div>
+                    <div class="swiper-slide s5con2"></div>
+                </div>
+            </div>
+            <script>    
+                var swiper = new Swiper(".s5_left", {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    centeredSlides: false,
+                    speed: 1200,
+                    autoplay: {
+                        delay: 4000,
+                        disableOnInteraction: false,
+                    },
+                })
+            </script>
+            <div class="swiper-containe s5_right">
+                <div class="ur_logo"onclick="window.location.href='https://smartstore.naver.com/hyunjunfarm'"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s5con3"></div>
+                    <div class="swiper-slide s5con4"></div>
+                </div>
+            </div>
+            <script>    
+                var swiper = new Swiper(".s5_right", {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    centeredSlides: false,
+                    speed: 1200,
+                    autoplay: {
+                        delay: 4000,
+                        disableOnInteraction: false,
+                    },
+                })
+            </script>
+        </div>
+    </section>
+    <section class="sec6" id="sec7">
+        <h1>Why we do</h1>
+        <p>We aim for human happiness through
+            plants and animals obtained from nature.</p>
+        <div>
+            <img src="./img/Group 141.png" alt="cal">
+        </div>
+    </section>
+    <section class="sec7" id="sec8">
+        <h1>Contact us</h1>
+        <p>Thank you for visiting our<br>
+            HYUNJUN AGRICULTURAL COMPANY website.</p>
+        <div id="container">
+            <select name="mail" id="mail">
+                <option id="option1">Livestock Business</option>
+                <option id="option2">Horticulture Business</option>
+            </select>
+            <div id="box1" class="on">
+                <div class="b1">
+                    <form class="f1" onsubmit="return false">
+                        <div class="form-item">
+                            <label for=""> Your Name:</label><br>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Phone:</label><br>
+                            <input type="text" name="phone" placeholder="Phone" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Email:</label><br>
+                            <input type="text" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Message:</label><br>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <button class="btn1">send</button>
+                    </form>
+                </div>
+            </div>
+            <div id="box2">
+                <div class="b2">
+                    <form class="f2" onsubmit="return false">
+                        <div class="form-item">
+                            <label for=""> Your Name:</label><br>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Phone:</label><br>
+                            <input type="text" name="phone" placeholder="Phone" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Email:</label><br>
+                            <input type="text" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Your Message:</label><br>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <button class="btn2">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </section>
+    <footer>
+        <p>© 2021 HYUNJUN AGRICULTURAL COMPANY. All Rights Reserved. </p>
+        <a href="#" class="go-top"></a>
+    </footer>
+</body>
+
+</html>
